@@ -1,2 +1,2 @@
-NSString-
+NSString+HTMLHelper
 =========
