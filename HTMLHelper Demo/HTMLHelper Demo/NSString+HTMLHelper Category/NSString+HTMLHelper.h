@@ -10,12 +10,15 @@
 
 @interface NSString (HTMLHelper)
 
-+ (NSString *)URLEncodeString:(NSString *)stringURL;
-+ (NSString *)URLDecodeString:(NSString *)stringURL;
-+ (NSString *)replaceTagWithLineBreak:(NSString *)string;
+// class methods
++ (NSString *)mimeTypeFromURL:(NSURL *)pathForResource;
++ (NSString *)mimeTypeFromResource:(NSString *)pathForResource ofType:(NSString *)type;
 
+// instance methods
+- (NSString *)URLEncodeString;
+- (NSString *)URLDecodeString;
+- (NSString *)replaceTagWithLineBreak;
 - (NSString *)replaceTagWithWhiteSpace;
 - (NSString *)stripHTMLTags;
-- (NSString *)mimeTypeFromResource:(NSString *)pathForResource ofType:(NSString *)type;
 
 @end
