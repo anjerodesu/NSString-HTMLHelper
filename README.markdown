@@ -22,4 +22,4 @@ Just copy the `NSString+HTMLHelper Category` or `NSString+HTMLHelper.h` and `NSS
 
 License
 -
-HTMLHelper is available under the MIT license.
+HTMLHelper is available under the [MIT license](https://github.com/anjerodesu/NSString-HTMLHelper/blob/master/LICENSE "LICENSE").
