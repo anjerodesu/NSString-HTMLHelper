@@ -1,7 +1,7 @@
 HTMLHelper
 =
 
-NSString+HTMLHelper is a collection of methods that helps me deal with HTML and URLs. 
+NSString+HTMLHelper is a collection of methods that helps me deal with HTML tags and URLs. 
 
 Methods
 -
@@ -18,7 +18,7 @@ Methods
 
 Install
 -
-Just copy the `NSString+HTMLHelper Category` or `NSString+HTMLHelper.h` and `NSString+HTMLHelper.m` files to your project and `#import` the header file by `UIColor+ColorWithHex.h`
+Just copy the `NSString+HTMLHelper Category` or `NSString+HTMLHelper.h` and `NSString+HTMLHelper.m` files to your project and `#import` the header file `NSString+HTMLHelper.h`
 
 License
 -
