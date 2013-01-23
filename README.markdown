@@ -18,7 +18,7 @@ Methods
 
 Install
 -
-Just copy the `NSString+HTMLHelper Category` or `NSString+HTMLHelper.h` and `NSString+HTMLHelper.m` files to your project and `#import` the header file by `UIColor+ColorWithHex.h`
+Just copy the `NSString+HTMLHelper Category` or `NSString+HTMLHelper.h` and `NSString+HTMLHelper.m` files to your project and `#import` the header file by `NSString+HTMLHelper.h`
 
 License
 -
